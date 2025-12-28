@@ -67,7 +67,7 @@
 ### 1. ダウンロード
 
 ```bash
-git clone https://github.com/[your-username]/shift_system.git
+git clone https://github.com/[gamu1204-boop]/shift_system.git
 ```
 
 または「Code」→「Download ZIP」でダウンロード
@@ -175,7 +175,7 @@ cp sample_data/*.json src/
 
 お気軽にお問い合わせください。
 
-📧 **連絡先:** [your-email@example.com]
+📧 **連絡先:** [gamu1204@gmail.com]
 
 ---
 
