@@ -1,0 +1,6 @@
+{
+    "company_name": "サンプル運送株式会社",
+    "weekly_holidays": ["sunday"],
+    "special_holidays": ["2025-01-01", "2025-01-02", "2025-01-03"],
+    "working_days": []
+}

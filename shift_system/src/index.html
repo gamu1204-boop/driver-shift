@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シフト管理システム - メニュー</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'メイリオ', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .menu-section {
+            padding: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        
+        .menu-card {
+            display: block;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px 20px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s;
+            text-align: center;
+            border: 2px solid transparent;
+        }
+        
+        .menu-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+        
+        .menu-card.highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .menu-card.highlight:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .menu-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .menu-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .menu-desc {
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .info-box li {
+            padding: 5px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .info-box li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚛 シフト管理システム</h1>
+            <p>ドライバー・車両・コースの統合管理</p>
+        </div>
+        
+        <div class="menu-section">
+            <div class="info-box">
+                <h3>🎉 新機能: 自動シフト生成</h3>
+                <ul>
+                    <li>ドライバーのデフォルトコースから1週間分を自動生成</li>
+                    <li>車両の重複チェック機能搭載</li>
+                    <li>PC・スマホ両対応</li>
+                </ul>
+            </div>
+            
+            <div class="section-title">
+                <span>⚡</span>
+                <span>シフト生成・管理</span>
+            </div>
+            
+            <div class="menu-grid">
+                <a href="auto_shift_generator.php" class="menu-card highlight" target="_blank">
+                    <div class="menu-icon">🤖</div>
+                    <div class="menu-title">自動シフト生成</div>
+                    <div class="menu-desc">PC版</div>
+                </a>
+                
+                <!--a href="mobile_auto_shift.php" class="menu-card highlight">
+                    <div class="menu-icon">📱</div>
+                    <div class="menu-title">自動シフト生成</div>
+                    <div class="menu-desc">モバイル版</div>
+                </a-->
+                
+                <a href="pc_schedule.php" class="menu-card" target="_blank">
+                    <div class="menu-icon">📅</div>
+                    <div class="menu-title">週間スケジュール</div>
+                    <div class="menu-desc">PC版・編集可能</div>
+                </a>
+                
+                <a href="schedule.php" class="menu-card" target="_blank">
+                    <div class="menu-icon">📱</div>
+                    <div class="menu-title">週間スケジュール</div>
+                    <div class="menu-desc">モバイル版・確認用</div>
+                </a>
+            </div>
+            
+            <div class="section-title">
+                <span>⚙️</span>
+                <span>マスターデータ管理</span>
+            </div>
+            
+            <div class="menu-grid">
+                <a href="driver_regist.php" class="menu-card" target="_blank">
+                    <div class="menu-icon">👨‍✈️</div>
+                    <div class="menu-title">ドライバー</div>
+                    <div class="menu-desc">登録・編集</div>
+                </a>
+                
+                <a href="vehicle_regist.php" class="menu-card" target="_blank">
+                    <div class="menu-icon">🚚</div>
+                    <div class="menu-title">車両</div>
+                    <div class="menu-desc">登録・編集</div>
+                </a>
+                
+                <a href="course_regist.php" class="menu-card" target="_blank">
+                    <div class="menu-icon">🗺️</div>
+                    <div class="menu-title">コース</div>
+                    <div class="menu-desc">登録・編集</div>
+                </a>
+            </div>
+            
+            <div class="info-box" style="background: #e7f3ff; border-left-color: #007bff;">
+                <h3>📖 使い方</h3>
+                <ul>
+                    <li><strong>初めての方:</strong> マスターデータから順に登録してください</li>
+                    <li><strong>シフト作成:</strong> 自動生成 → プレビュー → 保存の流れです</li>
+                    <li><strong>調整:</strong> 週間スケジュール画面で手動調整できます</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

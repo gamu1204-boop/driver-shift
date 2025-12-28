@@ -1,0 +1,82 @@
+{
+    "d001": {
+        "personal_id": "1",
+        "name": "田中 太郎",
+        "delivery_type": "shop",
+        "is_active": 1,
+        "is_deleted": false,
+        "courses": {
+            "monday": {"course": "KT2019 表参道"},
+            "tuesday": {"course": "KT2019 表参道"},
+            "wednesday": {"course": "KT2019 表参道"},
+            "thursday": {"course": "KT2019 表参道"},
+            "friday": {"course": "KT2019 表参道"},
+            "saturday": {"course": "公休"},
+            "sunday": {"course": "公休"}
+        }
+    },
+    "d002": {
+        "personal_id": "2",
+        "name": "鈴木 一郎",
+        "delivery_type": "large",
+        "is_active": 1,
+        "is_deleted": false,
+        "courses": {
+            "monday": {"course": "-"},
+            "tuesday": {"course": "-"},
+            "wednesday": {"course": "-"},
+            "thursday": {"course": "-"},
+            "friday": {"course": "-"},
+            "saturday": {"course": "公休"},
+            "sunday": {"course": "公休"}
+        }
+    },
+    "d003": {
+        "personal_id": "3",
+        "name": "佐藤 花子",
+        "delivery_type": "both",
+        "is_active": 1,
+        "is_deleted": false,
+        "courses": {
+            "monday": {"course": "KT1002 群馬"},
+            "tuesday": {"course": "KT1002 群馬"},
+            "wednesday": {"course": "KT1002 群馬"},
+            "thursday": {"course": "大型配送"},
+            "friday": {"course": "大型配送"},
+            "saturday": {"course": "公休"},
+            "sunday": {"course": "公休"}
+        }
+    },
+    "d004": {
+        "personal_id": "4",
+        "name": "山田 次郎",
+        "delivery_type": "shop",
+        "is_active": 1,
+        "is_deleted": false,
+        "courses": {
+            "monday": {"course": "KT3005 渋谷"},
+            "tuesday": {"course": "KT3005 渋谷"},
+            "wednesday": {"course": "KT3005 渋谷"},
+            "thursday": {"course": "KT3005 渋谷"},
+            "friday": {"course": "KT3005 渋谷"},
+            "saturday": {"course": "公休"},
+            "sunday": {"course": "公休"}
+        }
+    },
+    "d005": {
+        "personal_id": "5",
+        "name": "高橋 美咲",
+        "delivery_type": "shop",
+        "is_active": 1,
+        "is_deleted": false,
+        "courses": {
+            "monday": {"course": "KT4010 新宿"},
+            "tuesday": {"course": "KT4010 新宿"},
+            "wednesday": {"course": "公休"},
+            "thursday": {"course": "KT4010 新宿"},
+            "friday": {"course": "KT4010 新宿"},
+            "saturday": {"course": "KT4010 新宿"},
+            "sunday": {"course": "公休"}
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "monday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT1002 群馬", "vehicle_id": "v002"},
+        {"name": "KT3005 渋谷", "vehicle_id": "v003"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "tuesday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT1002 群馬", "vehicle_id": "v002"},
+        {"name": "KT3005 渋谷", "vehicle_id": "v003"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "wednesday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT1002 群馬", "vehicle_id": "v002"},
+        {"name": "KT3005 渋谷", "vehicle_id": "v003"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "thursday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT1002 群馬", "vehicle_id": "v002"},
+        {"name": "KT3005 渋谷", "vehicle_id": "v003"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "friday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT1002 群馬", "vehicle_id": "v002"},
+        {"name": "KT3005 渋谷", "vehicle_id": "v003"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "saturday": [
+        {"name": "KT2019 表参道", "vehicle_id": "v001"},
+        {"name": "KT4010 新宿", "vehicle_id": "v004"}
+    ],
+    "sunday": []
+}

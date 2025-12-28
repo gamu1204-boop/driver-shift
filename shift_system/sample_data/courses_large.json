@@ -1,0 +1,27 @@
+{
+    "monday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"},
+        {"name": "LG002 千葉センター", "vehicle_id": "v011"}
+    ],
+    "tuesday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"},
+        {"name": "LG002 千葉センター", "vehicle_id": "v011"}
+    ],
+    "wednesday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"},
+        {"name": "LG003 横浜センター", "vehicle_id": "v012"}
+    ],
+    "thursday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"},
+        {"name": "LG002 千葉センター", "vehicle_id": "v011"},
+        {"name": "LG003 横浜センター", "vehicle_id": "v012"}
+    ],
+    "friday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"},
+        {"name": "LG002 千葉センター", "vehicle_id": "v011"}
+    ],
+    "saturday": [
+        {"name": "LG001 埼玉センター", "vehicle_id": "v010"}
+    ],
+    "sunday": []
+}
